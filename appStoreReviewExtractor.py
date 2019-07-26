@@ -55,7 +55,7 @@ def getReviews(appID, page=1):
 
 
 csvTitles = ['title',  'author', 'version', 'rating', 'review', 'vote_count']
-myFile = open('/home/mitu/Downloads/AppleStore/16_rev.csv',"w")
+myFile = open('reviews.csv',"w")
 with myFile:
     writer = csv.writer(myFile)
     writer.writerow(csvTitles)
