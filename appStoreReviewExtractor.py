@@ -25,10 +25,9 @@ def getReviews(appID, page=1):
         for entry in data.get('entry'):
             if entry.get('im:name'):
                 continue
-            #review_id = entry.get('id').get('label')
+            
             title = entry.get('title').get('label')
             #print(title)
-            
             author = entry.get('author').get('name').get('label')            
             version = entry.get('im:version').get('label')
             rating = entry.get('im:rating').get('label')
