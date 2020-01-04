@@ -3,7 +3,7 @@
   
   
 - This is a Python based script which require:
-    - Python 2.7+
+    - Python 3.7.3
     
 - As Input user need to pass the app's ID which can be found at the end of the url of app in appstore. E.g.
 
